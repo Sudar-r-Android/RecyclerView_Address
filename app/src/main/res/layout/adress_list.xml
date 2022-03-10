@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="4dp"
+    android:layout_margin="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/address"
+        android:padding="12dp">
+
+        <TextView
+            android:id="@+id/sudar"
+            android:gravity="left"
+            android:layout_height="fill_parent"
+            android:layout_width="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="6"
+            android:singleLine="false"
+            android:lines="5"
+            android:text="Name : SUDAR \nAddress : Narayana Swami Kovil Street,
+Leppaikudieruppu \nPh : 9345239147"
+            android:textSize="25dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:background="#269"/>
+
+        <TextView
+            android:id="@+id/saran"
+            android:layout_marginTop="15dp"
+            android:gravity="left"
+            android:layout_height="fill_parent"
+            android:layout_width="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="6"
+            android:singleLine="false"
+            android:lines="5"
+            android:text="Name : SARAN \nAddress : Kamaraj Street,
+Ammandivilai \nPh : 8865954525"
+            android:textSize="25dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:background="#F6D55C"/>
+
+        <TextView
+            android:id="@+id/arun"
+            android:layout_marginTop="15dp"
+            android:gravity="left"
+            android:layout_height="fill_parent"
+            android:layout_width="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="6"
+            android:singleLine="false"
+            android:lines="5"
+            android:text="Name : ArunKumar \nAddress : Gandhi Street,
+Kanniyakumari \nPh : 6382541789"
+            android:textSize="25dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:background="#DDED553B"/>
+
+        <TextView
+            android:id="@+id/harris"
+            android:layout_marginTop="15dp"
+            android:gravity="left"
+            android:layout_height="fill_parent"
+            android:layout_width="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="6"
+            android:singleLine="false"
+            android:lines="5"
+            android:text="Name : Harris \nAddress : Perumal Street,
+Bangalore \nPh : 9945897412"
+            android:textSize="25dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:background="#E3AA"/>
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
